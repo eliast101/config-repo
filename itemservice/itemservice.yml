@@ -15,6 +15,8 @@ spring:
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
+  application:
+    name: itemservice
 security:
   basic:
     enabled: false
