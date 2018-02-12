@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/itemsharingdatabase
     username: root
-    password: Ela_787654
+    password: {cypher}8abc2220c20a860bed9469f9eb0c4ea600ef9a2e3e5eb07c7bbe4fa3dd239e0f
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
