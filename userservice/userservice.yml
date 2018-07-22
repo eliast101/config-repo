@@ -33,3 +33,14 @@ eureka:
     fetch-registry: true
     service-url:
       default-zone: http://localhost:8761/eureka/
+
+################################################
+#Custom Configurations
+################################################
+
+# random jwt signing key
+signing:
+  key: 547387erfk2867
+refresh:
+  token:
+    enabled: true
